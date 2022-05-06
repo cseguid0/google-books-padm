@@ -1,0 +1,21 @@
+
+  .Form input[type="text"] {
+    size: inherit;
+  }
+  
+  .Form label {
+    border-color: grey;
+    border-width: 1px;
+    border-style: ridge;
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  .Form input[type="radio"] {
+    display: none;
+  }
+  
+  .Form input[type="radio"]:checked + label {
+    background-color: blue;
+    color: whitesmoke;
+  }
